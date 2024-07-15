@@ -6,6 +6,8 @@
 
 body {
     font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 600;
 }
 
 /* ********************************* */
@@ -17,13 +19,25 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    height: 10rem;
-    padding: 0 6.4rem;
+    height: 9.6rem;
+    padding: 0 8rem;
+    font-weight: 600;
+    background-color: #fff;
     /* background-color: aqua; */
 }
 
 .logo {
-    height: 5rem;
+    height: 2.8rem;
+}
+
+.nav-icon {
+    color: #8a94a6;
+    font-size: 1.2rem;
+    margin-left: 0.8rem;
+}
+
+.main-nav {
+    display: flex;
 }
 
 .main-nav-list {
@@ -39,7 +53,7 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #8a94a6;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     transition: all 0.3s;
 }
