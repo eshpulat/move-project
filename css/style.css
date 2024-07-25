@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Rubik", sans-serif;
+    font-family: "Inter", sans-serif;
     line-height: 1;
     font-weight: 600;
 }
@@ -14,16 +14,19 @@ body {
 /* HEADER NAVIGATION */
 /* ********************************* */
 .header {
-    max-width: 140rem;
+    max-width: 124rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    margin: 0 auto;
     height: 9.6rem;
-    padding: 0 10rem;
+    /* padding: 0 10rem; */
     font-weight: 400;
     background-color: #fff;
     /* background-color: aqua; */
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .logo {
@@ -32,7 +35,7 @@ body {
 
 .nav-icon {
     color: #8a94a6;
-    font-size: 1.2rem;
+    font-size: 2.4rem;
     margin-left: 0.8rem;
 }
 
@@ -53,8 +56,9 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #8a94a6;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 600;
     transition: all 0.3s;
 }
 
@@ -80,10 +84,10 @@ body {
 /* ********************************* */
 
 .hero {
-    max-width: 140rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    margin: 0;
+    max-width: 124rem;
+    /* padding-left: 10rem;
+    padding-right: 10rem; */
+    margin: 0 auto;
 
     display: flex;
     justify-content: space-between;
@@ -93,24 +97,42 @@ body {
 
 .section-hero {
     padding-top: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .hero-text {
     font-size: 6rem;
+    line-height: 7.3rem;
     font-weight: 700;
+    color: #323b4b;
 
     /* line-height: 1.05; */
 }
 
 .hero-img-box {
+    flex: 1;
+}
+.hero-text-box {
+    flex: 0 0 50%;
+}
+.hero-img {
     width: 100%;
+
+    /* height: 100%; */
+}
+
+.hero-pay {
+    margin-top: 6.3rem;
 }
 
 .hero-dexcription {
     font-size: 2rem;
     font-weight: 500;
-    line-height: 1.6;
+    line-height: 3.5rem;
     color: #8a94a6;
+    margin-top: 3.8rem;
+    margin-bottom: 4rem;
 }
 
 .hero-btn:link,
