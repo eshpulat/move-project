@@ -132,7 +132,7 @@ html {
 }
 
 .hero-img {
-    width: 80%;
+    width: 100%;
     /* margin-left: 6.4rem; */
     border-radius: 20px;
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.5);
@@ -215,11 +215,12 @@ html {
     padding-left: 4rem;
     padding-right: 4rem;
 }
-
-.futtures-text {
+.futures-container {
     max-width: 124rem;
     margin: 0 auto;
+}
 
+.futtures-text {
     font-weight: 500;
     line-height: 2.9rem;
     font-size: 2.4rem;
@@ -231,7 +232,7 @@ html {
 
 .futures-logo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 8.3rem;
 }
 
@@ -315,4 +316,78 @@ html {
 .payment-itam:hover {
     box-shadow: 0 1rem 1.8rem rgb(0, 0, 0, 0.3);
     transform: translatey(-0.5rem);
+}
+
+/* ********************************* */
+/* TRANSACTION SECTION*/
+/* ********************************* */
+
+.section-transation {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #ffffff;
+}
+
+.main-transaction {
+    max-width: 124rem;
+    margin: 0 auto;
+    margin-top: 12.4rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.step-img-box {
+    width: 100%;
+}
+
+.transaction-title {
+    font-size: 6rem;
+    line-height: 7.3rem;
+    font-weight: 700;
+    margin-bottom: 3.3rem;
+    color: #333333;
+}
+
+.transaction-text {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 500;
+    color: #858a8f;
+    margin-bottom: 4.1rem;
+}
+
+.icon-text {
+    display: flex;
+}
+
+.transaction-icon {
+    width: 7.4rem;
+    height: 7.4rem;
+    background-color: #e5f1ff;
+    /* margin-top: 3.2rem; */
+    padding: 1.4rem;
+    border-radius: 50%;
+    margin-right: 3.2rem;
+}
+
+.second {
+    background-color: #eafaf3;
+}
+
+.icon-title {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 2.4rem;
+}
+
+.icon-text {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 500;
+    color: #858a8f;
+    margin-bottom: 3.2rem;
 }
