@@ -439,3 +439,80 @@ html {
     text-decoration: none;
     color: #377dff;
 }
+
+/* ********************************* */
+/* ABOUT US SECTION*/
+/* ********************************* */
+
+.section-about-us {
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+    background-color: #fafbfc;
+}
+
+.main-about-us {
+    max-width: 124rem;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-title {
+    padding-top: 10.8rem;
+    font-size: 6rem;
+    line-height: 7.3rem;
+    font-weight: 700;
+    color: #333333;
+
+    text-align: center;
+}
+
+.about-us-text {
+    margin-top: 3.5rem;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 500;
+    color: #8a94a6;
+    letter-spacing: 0.8px;
+
+    text-align: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.about-img-box {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.about-img {
+    border-radius: 2rem;
+    margin-top: 7.5rem;
+    margin-bottom: 12.4rem;
+}
+
+.img-icon {
+    width: 4.7rem;
+    height: 4.7rem;
+
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%); */
+}
+.icon-box {
+    background-color: #377dff;
+    border-radius: 50%;
+    width: 7.7rem;
+    height: 7.7rem;
+    padding: 1.6rem;
+
+    position: absolute;
+}
