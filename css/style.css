@@ -627,14 +627,37 @@ html {
 
     display: flex;
     justify-content: space-between;
-    gap: 12rem;
+    /* gap: 10rem; */
 }
 
 .footer-logo-text {
+    margin-top: 2.4rem;
     font-size: 2rem;
     line-height: 3.5rem;
     font-weight: 500;
     color: #8a94a6;
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+}
+
+.footer-logo {
+    width: 26%;
+}
+
+.social-icon {
+    margin-top: 3.1rem;
+    margin-bottom: 10rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    background-color: #fafbfc;
+    padding: 1.2rem;
 }
 
 .footer-title {
@@ -642,4 +665,42 @@ html {
     line-height: 2.9rem;
     font-weight: 600;
     color: #323b4b;
+}
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem;
+
+    list-style: none;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    /* width: 40%; */
+    gap: 2.7rem;
+}
+
+.footer-link {
+    text-decoration: none;
+
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #8a94a6;
+}
+
+.copyright {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    color: #8a94a6;
+    text-align: start;
+
+    max-width: 124rem;
+    margin: 0 auto;
+}
+
+.step-copyright {
+    margin-bottom: 14.3rem;
 }
