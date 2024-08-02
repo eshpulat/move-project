@@ -516,3 +516,97 @@ html {
 
     position: absolute;
 }
+
+/* ********************************* */
+/* ACCORDIAN SECTION*/
+/* ********************************* */
+
+.accordian-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+    background-color: #fafbfc;
+}
+
+.main-accordian {
+    max-width: 124rem;
+    margin: 0 auto;
+}
+
+.accordian-title {
+    padding-top: 10.8rem;
+    font-size: 6rem;
+    line-height: 7.3rem;
+    font-weight: 700;
+    color: #323b4b;
+
+    text-align: center;
+}
+
+.accordian-text {
+    margin-top: 3.5rem;
+    margin-bottom: 6.9rem;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 500;
+    color: #858a8f;
+    letter-spacing: 0.8px;
+
+    text-align: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.step-question-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.question-box {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    width: 50%;
+
+    margin-bottom: 4.2rem;
+    padding-left: 3.2rem;
+    padding-right: 5rem;
+    padding-top: 4.4rem;
+    padding-bottom: 4.6rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question-text {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    color: #323b4b;
+}
+
+.accordian-link {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    color: #377dff;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #e5f1ff;
+    padding: 2rem 7.9rem 2rem 7.9rem;
+    width: 50%;
+
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.link-box {
+    margin-top: 8.3rem;
+    padding-bottom: 12.4rem;
+    text-align: center;
+}
+
+.accordian-link:hover {
+    background-color: #d7e5ff;
+}
