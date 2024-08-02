@@ -610,3 +610,36 @@ html {
 .accordian-link:hover {
     background-color: #d7e5ff;
 }
+
+/* ********************************* */
+/* ACCORDIAN SECTION*/
+/* ********************************* */
+
+.footer-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.main-footer {
+    max-width: 124rem;
+    margin: 0 auto;
+    margin-top: 13.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 12rem;
+}
+
+.footer-logo-text {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 500;
+    color: #8a94a6;
+}
+
+.footer-title {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    font-weight: 600;
+    color: #323b4b;
+}
